@@ -135,14 +135,54 @@
 
     <h2>Condicional (switch):</h2>
     <p>2.8. Convierte un número del 1 al 12 en el nombre del mes correspondiente. El programa debe solicitar al usuario que ingrese un número del 1 al 12 y luego mostrar el nombre del mes asociado.</p>
-        
 
-
-    <p><strong>Ejemplo:</strong></p>
-    <p>• Ingresa un número del 1 al 12 para saber el mes correspondiente: 9</p>
-
-    <p>• El mes correspondiente al número 9 es: Septiembre</p>
-
+    <p id="2_8"></p>
+    
+    <script>
+        let mes = 7;
+        let nombreMes;
+        switch (mes) {
+            case 1:
+                nombreMes = "Enero";
+                break;
+            case 2:
+                nombreMes = "Febrero";
+                break;
+            case 3:
+                nombreMes = "Marzo";
+                break;
+            case 4:
+                nombreMes = "Abril";
+                break;
+            case 5:
+                nombreMes = "Mayo";
+                break;
+            case 6:
+                nombreMes = "Junio";
+                break;
+            case 7:
+                nombreMes = "Julio";
+                break;
+            case 8:
+                nombreMes = "Agosto";
+                break;
+            case 9:
+                nombreMes = "Septiembre";
+                break;
+            case 10:
+                nombreMes = "Octubre";
+                break;
+            case 11:
+                nombreMes = "Noviembre";
+                break;
+            case 12:
+                nombreMes = "Diciembre";
+                break;
+            default:
+                nombreMes= "Ninguno. Tu respuesta no fue valida" 
+        }
+        document.getElementById("2_8").innerHTML="El mes correspondiente es " + nombreMes
+    </script>
 
 </body>
 </html>
