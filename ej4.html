@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+<h1>4.1. Crea un programa que solicite al usuario ingresar una lista de números y luego encuentre el número más grande en esa lista.</h1>
+
+<p>• Solicita al usuario que ingrese la cantidad de números que quiere introducir.</p>
+
+<label for="cantidad_num">¿Cuantos numeros quiere introducir?</label>
+<input type="number" id="cantidad_num" placeholder="Introduzca la cantidad">
+<button onclick=guardarCantidadNumeros()>Enviar</button>
+
+<script>
+    function guardarCantidadNumeros() {
+        return document.getElementById("cantidad_num").value
+    }
+
+
+</script>
+º   
+<p>• Solicita al usuario que introduzca cada número uno por uno.</p>
+
+<label for="numeros">Introduzca los numeros, uno a uno, que desea agregar a la lista</label>
+<input type="number" id="numeros">
+<button onclick=guardarNumeros()>Guardar</button>
+
+
+<p>Almacena estos números en un array
+
+</p>
+
+
+
+<p>• Escribe una función llamada <strong>findLargestNumber</strong> que tome un array de números como entrada y devuelva el número más grande en el array.</p>
+
+<p id="numero_mas_grande"></p>
+
+
+<script>
+    
+</script>
+
+
+<p>• Dentro de la función, itera a través del array usando un bucle for para encontrar el número más grande.</p>
+
+<p id="numero_mas_grande_iteracion"></p>
+
+
+<script>
+    
+</script>
+
+
+
+
+<p>• Muestra el número más grande encontrado al usuario.</p>
+
+<p id="numero_mas_grande_iteracion"></p>
+
+<p>Asegúrate de que el programa utilice arrays para almacenar los números y la función para encontrar el número más grande.</p>
+
+
+
+</body>
+</html>
